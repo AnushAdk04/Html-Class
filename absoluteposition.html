@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+    <style>
+        .parent{
+            width: 400px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+            position: relative;
+        }
+
+        .child{
+            width: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h2>Parent Div</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos cum libero, quia sequi asperiores quo repellendus repellat unde voluptatem tenetur esse officiis modi adipisci maiores expedita et vero quaerat iure!
+        <div class="child">
+            <h2>Child</h2>
+        </div>
+    </div>
+</body>
+</html>
